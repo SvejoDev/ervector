@@ -36,13 +36,17 @@ export function ContactForm() {
       })
 
       if (!response.ok) {
-        throw new Error("Något gick fel")
+        const errorData = await response.json().catch(() => ({}))
+        console.error("API Error:", response.status, errorData)
+        throw new Error(errorData.error || "Något gick fel")
       }
 
       toast.success("Tack för ditt meddelande! Vi återkommer så snart som möjligt.")
       reset()
     } catch (error) {
-      toast.error("Kunde inte skicka meddelandet. Försök igen senare.")
+      console.error("Contact form error:", error)
+      const errorMessage = error instanceof Error ? error.message : "Kunde inte skicka meddelandet. Försök igen senare."
+      toast.error(errorMessage)
     } finally {
       setIsSubmitting(false)
     }
