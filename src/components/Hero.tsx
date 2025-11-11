@@ -12,7 +12,7 @@ export function Hero() {
   return (
     <section className="container flex flex-col items-center justify-center gap-8 py-24 md:py-32">
       <div className="flex flex-col items-center gap-6 text-center">
-        <Logo className="h-32 w-auto md:h-40" />
+        <Logo className="h-48 w-auto md:h-64 lg:h-80" />
         <h1 className="text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl text-balance">
           Säkerhet och skallskydd
         </h1>
