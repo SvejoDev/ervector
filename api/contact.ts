@@ -43,7 +43,7 @@ export default async function handler(
   try {
     const result = await resend.emails.send({
       from: 'Ervector Hemsida <noreply@svejo.se>',
-      to: 'johan.svensson@svejo.se',
+      to: 'info@ervector.se',
       replyTo: parsed.data.email,
       subject: `Kontakt från hemsida: ${parsed.data.name}`,
       text: `Ny kontaktförfrågan från ervector.se\n\nMeddelande:\n${parsed.data.message}\n\n---\nKontaktinformation:\nNamn: ${parsed.data.name}\nE-post: ${parsed.data.email}${parsed.data.phone ? `\nTelefon: ${parsed.data.phone}` : ''}${parsed.data.company ? `\nFöretag: ${parsed.data.company}` : ''}`,
