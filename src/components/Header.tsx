@@ -9,12 +9,20 @@ export function Header() {
     }
   }
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" })
+  }
+
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
-        <div className="flex items-center gap-2">
+        <button
+          onClick={scrollToTop}
+          className="flex items-center gap-2 hover:opacity-80 transition-opacity cursor-pointer"
+          aria-label="Scroll to top"
+        >
           <Logo className="h-16 w-auto" />
-        </div>
+        </button>
         <nav className="hidden md:flex items-center gap-6">
           <button
             onClick={() => scrollToSection("tjänster")}

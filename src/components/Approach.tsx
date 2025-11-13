@@ -10,7 +10,7 @@ export function Approach() {
         <Separator className="mb-12" />
         <div className="space-y-6 text-muted-foreground">
           <p>
-            Hej
+            Hej,
           </p>
           <p>
             Mitt namn är Emil, och jag vill gärna kort presentera mitt nystartade företag. 

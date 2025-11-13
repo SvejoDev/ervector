@@ -64,25 +64,6 @@ const services = [
     ),
   },
   {
-    title: "Fönstergaller",
-    content: (
-      <div className="space-y-4 text-muted-foreground">
-        <p>
-          Fönstergaller används för att skydda fönster och andra öppningar mot inbrott, skadegörelse och fallolyckor – utan att hindra ljusinsläppet.
-        </p>
-        <p>
-          De tillverkas vanligtvis i stål och finns i många olika utföranden, från diskreta standardmodeller till måttanpassade och dekorativa galler som smälter in i byggnadens stil.
-        </p>
-        <p>
-          Fönstergaller kan monteras både utvändigt och invändigt, och finns i flera säkerhetsklasser beroende på skyddsbehov. För vissa miljöer, som källarfönster, skolor eller lokaler med värdefull utrustning, är de ett effektivt och prisvärt sätt att öka tryggheten.
-        </p>
-        <p className="font-medium">
-          Kort sagt: Fönstergaller ger ett starkt inbrottsskydd – och kombinerar säkerhet med funktion och design.
-        </p>
-      </div>
-    ),
-  },
-  {
     title: "Portar",
     content: (
       <div className="space-y-4 text-muted-foreground">
@@ -134,30 +115,68 @@ const services = [
     ),
   },
   {
-    title: "Snickeriarbeten",
+    title: "Fönstergaller och gallergrindar",
+    content: (
+      <div className="space-y-4 text-muted-foreground">
+        <div>
+          <h4 className="font-semibold text-foreground mb-2">Fönstergaller</h4>
+          <p>
+            Fönstergaller används för att skydda fönster och andra öppningar mot inbrott, skadegörelse och fallolyckor – utan att hindra ljusinsläppet.
+          </p>
+          <p className="mt-2">
+            De tillverkas vanligtvis i stål och finns i många olika utföranden, från diskreta standardmodeller till måttanpassade och dekorativa galler som smälter in i byggnadens stil.
+          </p>
+          <p className="mt-2">
+            Fönstergaller kan monteras både utvändigt och invändigt, och finns i flera säkerhetsklasser beroende på skyddsbehov. För vissa miljöer, som källarfönster, skolor eller lokaler med värdefull utrustning, är de ett effektivt och prisvärt sätt att öka tryggheten.
+          </p>
+          <p className="mt-2 font-medium">
+            Kort sagt: Fönstergaller ger ett starkt inbrottsskydd – och kombinerar säkerhet med funktion och design.
+          </p>
+        </div>
+        <div>
+          <h4 className="font-semibold text-foreground mb-2">Gallergrindar</h4>
+          <p>
+            Gallergrindar är en effektiv och smidig lösning för att öka säkerheten i både bostäder och lokaler. De ger ett starkt inbrottsskydd – utan att stänga ute ljus eller ventilation.
+          </p>
+          <p className="mt-2">
+            Grindarna tillverkas vanligtvis i stål och kan monteras invändigt eller utvändigt, framför dörrar, fönster, entréer eller korridorer. De finns som svängbara eller skjutbara modeller, och kan måttanpassas för att passa varje öppning.
+          </p>
+          <p className="mt-2">
+            Gallergrindar kan utrustas med säkerhetsklassade lås, och lackeras i valfri kulör för att smälta in i miljön. De används ofta i källare, trapphus, butiker och lagerlokaler där man vill kombinera säkerhet och åtkomst.
+          </p>
+          <p className="mt-2 font-medium">
+            Kort sagt: Gallergrindar ger ett robust och diskret skydd – en trygg lösning som stoppar inbrottsförsök men håller utrymmen ljusa och tillgängliga.
+          </p>
+        </div>
+      </div>
+    ),
+  },
+  {
+    title: "Skyddsglas",
     content: (
       <div className="space-y-4 text-muted-foreground">
         <p>
-          Våra snickeriarbeten kompletterar installationen av dörrar, portar, fönstergaller och jalusier – och säkerställer att allt återställs snyggt, säkert och enligt gällande krav.
+          Skyddsglas är specialglas som kombinerar säkerhet och funktion, och används för att skydda människor, byggnader och inventarier mot skador, inbrott eller brand.
         </p>
         <p>
-          Efter montering hjälper vi till med:
+          Det finns olika typer av skyddsglas, bland annat:
         </p>
         <ul className="list-disc list-inside space-y-1 ml-4">
-          <li>Återställning av väggar, karmar och lister</li>
-          <li>Justering och inpassning för perfekt funktion och tätning</li>
-          <li>Montering av tillbehör som trösklar, foder och skyddsplåtar</li>
+          <li>
+            <strong>Säkerhetsglas</strong> – härdat eller laminerat glas som minskar risken för skärskador vid krossning.
+          </li>
+          <li>
+            <strong>Inbrottsskyddande glas</strong> – glas som är svårt att bryta igenom och som används i exempelvis butiksfönster, entréer och kontor.
+          </li>
+          <li>
+            <strong>Brandskyddsglas</strong> – glas som motstår höga temperaturer och förhindrar spridning av brand och rök.
+          </li>
         </ul>
         <p>
-          Vi utför även snickeriarbeten som bidrar till säkerhets- och utrymningsvägar, till exempel:
+          Skyddsglas kan användas i dörrar, fönster, jalusier, entrépartier och inredningslösningar, och finns i olika tjocklekar och säkerhetsklasser för att passa olika behov.
         </p>
-        <ul className="list-disc list-inside space-y-1 ml-4">
-          <li>Byggnation av säkerhetsväggar och förstärkta partier</li>
-          <li>Anpassningar för brandklassade konstruktioner</li>
-          <li>Tätning och isolering enligt brand- och ljudkrav</li>
-        </ul>
         <p className="font-medium">
-          Kort sagt: Våra snickeriarbeten ser till att installationen blir komplett – med både säkerhet, funktion och en professionell finish.
+          Kort sagt: Skyddsglas ger både säkerhet och trygghet – utan att kompromissa med ljusinsläpp eller design.
         </p>
       </div>
     ),
@@ -188,25 +207,6 @@ const services = [
     ),
   },
   {
-    title: "Utrymningstrappor",
-    content: (
-      <div className="space-y-4 text-muted-foreground">
-        <p>
-          Utrymningstrappor är en viktig del av byggnadens säkerhets- och räddningsvägar, utformade för att ge en trygg och snabb väg ut vid brand eller annan nödsituation.
-        </p>
-        <p>
-          Trapporna tillverkas vanligtvis i stål för att klara höga krav på hållfasthet, slitstyrka och brandsäkerhet. De kan anpassas för både invändigt och utvändigt bruk, och utformas efter byggnadens arkitektur och gällande säkerhetsföreskrifter.
-        </p>
-        <p>
-          Vi erbjuder lösningar i samarbete med erfarna leverantörer och montörer som säkerställer att trapporna uppfyller alla myndighetskrav och standarder (t.ex. Boverkets byggregler).
-        </p>
-        <p className="font-medium">
-          Kort sagt: Utrymningstrappor skapar säkra utrymningsvägar – anpassade, godkända och byggda för att rädda liv när det verkligen gäller.
-        </p>
-      </div>
-    ),
-  },
-  {
     title: "Reparationer av befintliga produkter",
     content: (
       <div className="space-y-4 text-muted-foreground">
@@ -230,6 +230,54 @@ const services = [
         </p>
         <p className="font-medium">
           Kort sagt: Vi tar hand om dina befintliga produkter – med professionell service, reparation och justering för långvarig funktion och trygghet.
+        </p>
+      </div>
+    ),
+  },
+  {
+    title: "Utrymningstrappor",
+    content: (
+      <div className="space-y-4 text-muted-foreground">
+        <p>
+          Utrymningstrappor är en viktig del av byggnadens säkerhets- och räddningsvägar, utformade för att ge en trygg och snabb väg ut vid brand eller annan nödsituation.
+        </p>
+        <p>
+          Trapporna tillverkas vanligtvis i stål för att klara höga krav på hållfasthet, slitstyrka och brandsäkerhet. De kan anpassas för både invändigt och utvändigt bruk, och utformas efter byggnadens arkitektur och gällande säkerhetsföreskrifter.
+        </p>
+        <p>
+          Vi erbjuder lösningar i samarbete med erfarna leverantörer och montörer som säkerställer att trapporna uppfyller alla myndighetskrav och standarder (t.ex. Boverkets byggregler).
+        </p>
+        <p className="font-medium">
+          Kort sagt: Utrymningstrappor skapar säkra utrymningsvägar – anpassade, godkända och byggda för att rädda liv när det verkligen gäller.
+        </p>
+      </div>
+    ),
+  },
+  {
+    title: "Snickeriarbeten",
+    content: (
+      <div className="space-y-4 text-muted-foreground">
+        <p>
+          Våra snickeriarbeten kompletterar installationen av dörrar, portar, fönstergaller och jalusier – och säkerställer att allt återställs snyggt, säkert och enligt gällande krav.
+        </p>
+        <p>
+          Efter montering hjälper vi till med:
+        </p>
+        <ul className="list-disc list-inside space-y-1 ml-4">
+          <li>Återställning av väggar, karmar och lister</li>
+          <li>Justering och inpassning för perfekt funktion och tätning</li>
+          <li>Montering av tillbehör som trösklar, foder och skyddsplåtar</li>
+        </ul>
+        <p>
+          Vi utför även snickeriarbeten som bidrar till säkerhets- och utrymningsvägar, till exempel:
+        </p>
+        <ul className="list-disc list-inside space-y-1 ml-4">
+          <li>Byggnation av säkerhetsväggar och förstärkta partier</li>
+          <li>Anpassningar för brandklassade konstruktioner</li>
+          <li>Tätning och isolering enligt brand- och ljudkrav</li>
+        </ul>
+        <p className="font-medium">
+          Kort sagt: Våra snickeriarbeten ser till att installationen blir komplett – med både säkerhet, funktion och en professionell finish.
         </p>
       </div>
     ),
