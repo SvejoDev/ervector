@@ -10,24 +10,27 @@ export function Approach() {
         <Separator className="mb-12" />
         <div className="space-y-6 text-muted-foreground">
           <p>
-            Mitt namn är Emil. Jag vill kort presentera mitt nystartade företag som erbjuder 
-            kompletta lösningar inom säkerhet och skallskydd – med fokus på kvalitet, flexibilitet 
-            och helhetslösningar.
+            Hej
           </p>
           <p>
-            Vi samarbetar med erfarna underentreprenörer – snickare som återställer och anpassar 
-            efter kundens önskemål, samt låssmeder med kompetensen inom både lås och larm. 
-            Det gör att vi kan ta ett helhetsansvar från start till färdig lösning, vilket sparar 
-            både tid och samordning för kund.
+            Mitt namn är Emil, och jag vill gärna kort presentera mitt nystartade företag. 
+            Vi erbjuder kompletta lösningar inom säkerhet och skalskydd – med fokus på kvalitet, 
+            flexibilitet och helhetsansvar.
           </p>
           <p>
-            Jag själv har över 15 års erfarenhet inom säkerhet, smide, arbetsledning och 
-            projektledning, och har arbetat med både större fastighetsägare, bolag och mindre 
-            projekt. Stora som små.
+            Vår verksamhet bygger på samarbete med erfarna underentreprenörer. Tillsammans med skickliga snickare, 
+            som ansvarar för anpassning och återställning enligt kundens önskemål, samt kompetenta låssmeder med 
+            expertis inom både lås- och larmsystem, kan vi leverera heltäckande lösningar.
           </p>
           <p>
-            Vi är intresserade av att komma i kontakt med er för att se hur vi skulle kunna 
-            bistå vid framtida behov.
+            Detta gör att vi tar ett fullt ansvar från planering till färdig installation – något som sparar både 
+            tid och samordning för våra kunder.
+          </p>
+            <p>
+            Själv har jag över 15 års erfarenhet inom säkerhet, smide, arbetsledning och projektledning, med uppdrag för både större fastighetsägare, företag och mindre projekt – stora som små.
+          </p>
+            <p>
+            Vi ser fram emot möjligheten att komma i kontakt med er för att diskutera hur vi kan bidra vid framtida behov.
           </p>
         </div>
       </div>

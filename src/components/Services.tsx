@@ -1,8 +1,8 @@
 import { Separator } from "@/components/ui/separator"
 
 const services = [
-  "Brand- och säkerhetsdörrar",
-  "Entrepartier",
+  "Brand och säkerhetsdörrar",
+  "Entrépartier",
   "Fönstergaller",
   "Portar",
   "Jalusi – Brand och Säkerhet",
@@ -27,9 +27,14 @@ export function Services() {
             </li>
           ))}
         </ul>
-        <p className="mt-12 text-muted-foreground text-center">
-          Allt som har med säkerhet, invändigt och utvändigt. Skallskydd i alla möjliga klasser. 
-          Allt vad kunden önskar. Stukatur på dörrar. Råsa dörrar. Portar i alla modeller. Med mera.
+        <p className="mt-20 text-muted-foreground text-center">
+          Vi skapar trygghet med stil.
+        </p>
+        <p className="mt-6 text-muted-foreground text-center">
+          Hos oss får du helhetslösningar inom säkerhet – både invändigt och utvändigt. Vi erbjuder skalskydd i alla säkerhetsklasser, exklusiva stuckaturdetaljer, specialdesignade dörrar och portar i alla modeller.
+        </p>
+        <p className="mt-6 text-muted-foreground text-center">
+          Varje projekt anpassas efter kundens önskemål – från design till färdigt resultat. Oavsett om det handlar om elegans, säkerhet eller funktionalitet levererar vi kvalitet i varje detalj.
         </p>
       </div>
     </section>
