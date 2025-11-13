@@ -14,7 +14,7 @@ export function Hero() {
       <div className="flex flex-col items-center gap-6 text-center">
         <Logo className="h-48 w-auto md:h-64 lg:h-80" />
         <h1 className="text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl text-balance">
-          Säkerhet och skallskydd
+          Säkerhet och skalskydd
         </h1>
         <p className="text-xl text-muted-foreground max-w-2xl text-balance">
           Kvalitet, flexibilitet och helhet
