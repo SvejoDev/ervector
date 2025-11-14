@@ -15,6 +15,8 @@ export function Footer() {
               info@ervector.se
             </a>
           </p>
+          <p>VAT-nummer: SE559541685901</p>
+          <p>Org nummer: 559541-6859</p>
           <p className="text-xs">© {new Date().getFullYear()} Ervector. Alla rättigheter förbehållna.</p>
         </div>
       </div>
