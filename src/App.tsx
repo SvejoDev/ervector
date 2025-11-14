@@ -3,6 +3,7 @@ import { Hero } from "./components/Hero"
 import { Services } from "./components/Services"
 import { Approach } from "./components/Approach"
 import { ContactForm } from "./components/ContactForm"
+import { Press } from "./components/Press"
 import { Footer } from "./components/Footer"
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Services />
         <Approach />
         <ContactForm />
+        <Press />
       </main>
       <Footer />
     </div>
